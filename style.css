@@ -61,7 +61,9 @@ form.sign-in-form {
 
 .title {
   font-size: 2.2rem;
-  color: #444;
+  background:linear-gradient(to right, #f16023, #faae37);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
   margin-bottom: 10px;
 }
 
@@ -103,7 +105,7 @@ form.sign-in-form {
 
 .btn {
   width: 150px;
-  background-color: #5995fd;
+  background:linear-gradient(to right, #faae37, #f16023);
   border: none;
   outline: none;
   height: 49px;
@@ -117,7 +119,7 @@ form.sign-in-form {
 }
 
 .btn:hover {
-  background-color: #4d84e2;
+  background:linear-gradient(to right, #f16023, #faae37);
 }
 .panels-container {
   position: absolute;
